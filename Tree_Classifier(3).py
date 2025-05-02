@@ -7,8 +7,6 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 
-# Load the dataset
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.csv"
 df = pd.read_csv(url, sep=';')
 
 # Display basic info
